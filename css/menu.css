@@ -1,0 +1,35 @@
+body{
+    font-size: 15px;
+    margin: 20px;
+}
+.menu{
+    background: whitesmoke;
+    padding: 5px;
+}
+.menu>div{
+    cursor: pointer;
+    padding: 20px 30px;
+    display: inline-block;
+}
+.menu>div:hover{
+    background: white;
+}
+.content{
+    margin: 10px 0px;
+}
+.content td{
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+.content td:hover{
+    border-bottom: 1px solid whitesmoke;
+}
+.new_book{
+    border: none;
+    border-radius: 5px;
+    background: olivedrab;
+    padding: 10px 20px;
+}
+.new_book:hover{
+    background: green;
+}
