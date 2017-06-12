@@ -1,4 +1,4 @@
-<form action="<?= $_SERVER["HTTP_HOST"].$_SERVER["REQUEST_URI"]?>" method="post">
+<form action="http://<?= $_SERVER["HTTP_HOST"].$_SERVER["REQUEST_URI"]?>" method="post">
     <fieldset>
         <legend>Thêm Sách Mới</legend>
         <div class="new_input">

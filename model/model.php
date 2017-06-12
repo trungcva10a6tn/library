@@ -21,8 +21,14 @@ class modeldb {
         }
         return $list;
     }
-    public function add(){
-
+    public function add($data){
+        $data_full="NULL";
+        foreach ($data as $value){
+            $data_full+=",'$value'";
+        }
+        $query = "INSERT INTO table_name VALUES ($data_full)";
+        $db = new PDO($this->url, $this->user, $this->pas);
+        $db->query($query);
     }
 }
 ?>

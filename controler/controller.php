@@ -2,8 +2,8 @@
 require_once "model/model.php";
 
 class controller{
-    public function view ($url,$dt){
-        $data=$dt;
+    public function view ($url,$data_in){
+        $data=$data_in;
         include "view/".$url.".php";
     }
     public function connecdb(){
