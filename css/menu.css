@@ -33,3 +33,36 @@ body{
 .new_book:hover{
     background: green;
 }
+fieldset{
+    margin: 20px 0px;
+    display: inline-block;
+}
+.new_input{
+    margin: 10px;
+    overflow: auto;
+}
+.new_input>input{
+    border: 1px solid white;
+    border-bottom-color: cadetblue;
+    outline: none;
+    margin: 0px 10px;
+    float: right;
+}
+.new_input>select{
+    outline: none;
+    margin: 0px 5px;
+    float: right;
+    border: none;
+    background: white;
+}
+.new_input>label{
+    float: left;
+}
+fieldset>button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px 15px;
+    float: right;
+    background: olivedrab;
+}
